@@ -4,18 +4,21 @@
     --color-primary: #819B57;
     --color-secondary-light: #CFCFBC;
     --color-secondary-dark: #A18268;
-    --color-secondary: #465929
+    --color-secondary: #465929;
 }
-.body{
-    word-wrap: break-word;
-    font-family: Poppins
+body{
+    color: var(--color-primary-dark);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+    line-height: 1.5;
 
 }
 ul{
     list-style-type: none;
 }
 
-.button{
+.button{ 
     background: var(--color-primary);
     border-radius: 8px;
     border: 2px var(--color-primary) solid;
@@ -36,40 +39,41 @@ ul{
     font-size: 18px;
     font-weight: 600; 
    
-    cursor: pointer
+    cursor: pointer;
 }
 
 .button:hover{
     background: transparent;
-    color: var(--color-secondary)
+    color: var(--color-secondary);
 }
 
 .header-link{
     text-align: center; 
-    color: var(--color-primary-dark); 
-    font-size: 18px; 
-    
-    font-weight: 400
-
+    color: var(--color-primary-light); 
+    text-decoration: none;
 }
 .header-link:hover{
     color: var(--color-primary);
-    font-weight: 600
+    font-weight: 600;
 }
 
 .title{
     text-align: center;
     color: var(--color-primary-light); 
     font-size: 128px;
-    font-weight: 900
+    font-weight: 900;
 }
 .accent{
     color: var(--color-primary)
 }
 .hero-section{
+    background-color: var(--color-primary);
+}
+.hero-section-item{
     color: var(--color-primary-light); 
+    font-family: Poppins, sans-serif;
     font-size: 20px;
-    font-weight: 300
+    font-weight: 300;
 }
 
 .title-section{
@@ -77,30 +81,30 @@ ul{
     color: var(--color-primary-dark);
     font-size: 64px;
     font-weight: 900;
-    line-height: 84px
+    line-height: 1.3;
 }
 main{
     color: var(--color-primary-dark);
     font-size: 18px;
     font-weight: 400;
-    font-family: Poppins
+    font-family: Poppins;
 }
 .accent-main{
     font-weight: 600;
-    color: var(--color-primary)
+    color: var(--color-primary);
 }
 
 .title-low-section {
     color: var(--color-primary-dark);
     font-size: 40px;
-    font-weight: 600
+    font-weight: 600;
 }
 .title-section-pic{
     font-size: 24px;
-    font-weight: 600
+    font-weight: 600;
 }
 .pic-description{
     color: var(--color-primary-light);
     font-size: 14px;
-    font-weight: 300
+    font-weight: 300;
 }
